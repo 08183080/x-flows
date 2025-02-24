@@ -10,8 +10,8 @@ x infomation flow，推特信息流
 
 
 # 待改进
-- [ ] 每天发送的json数据太丑了，应该渲染
+- [x] 每天发送的json数据太丑了，应该渲染【grok3帮忙改进】
 
 
 # 命令
-nohup python -u test.py > test.log 2>&1 &.
+```nohup python -u test.py > test.log 2>&1 &```
