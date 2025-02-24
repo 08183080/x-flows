@@ -109,7 +109,7 @@ def daily_task():
 
 if __name__ == "__main__":
     try:
-        schedule.every().day.at('02:20').do(daily_task)
+        schedule.every().day.at('11:10').do(daily_task)
         while True:
             schedule.run_pending()
             time.sleep(1)
